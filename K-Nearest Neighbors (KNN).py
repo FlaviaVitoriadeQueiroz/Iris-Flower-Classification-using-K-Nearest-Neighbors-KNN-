@@ -22,11 +22,11 @@ print(df['species'].value_counts())
 
 
 # Visualização
-'''sns.scatterplot (data=df, x='petal_length', y='petal_width', hue='species') #hue para colorir os pontos de acordo com a espécie 
+sns.scatterplot (data=df, x='petal_length', y='petal_width', hue='species') #hue para colorir os pontos de acordo com a espécie 
 plt.title('Distribuição das Flores por Comprimento e Largura da Pétala')
 plt.xlabel('Petal Length')
 plt.ylabel('Petal Width')
-plt.show()'''
+plt.show()
 
 
 # Dados de treino e teste
